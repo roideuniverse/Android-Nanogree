@@ -1,0 +1,67 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="roide.nano.protfolio.MainActivity"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/main_nano_degree_apps"
+            android:padding="@dimen/standard_margin"
+            style="@style/main_title"
+            />
+
+        <Button
+            android:layout_width="@dimen/main_button_width"
+            android:layout_height="wrap_content"
+            android:text="@string/main_spotify"
+            style="@style/main_button_orange"
+            />
+
+        <Button
+            android:layout_width="@dimen/main_button_width"
+            android:layout_height="wrap_content"
+            android:text="@string/main_scores"
+            style="@style/main_button_orange"
+            />
+
+        <Button
+            android:layout_width="@dimen/main_button_width"
+            android:layout_height="wrap_content"
+            android:text="@string/main_library"
+            style="@style/main_button_orange"
+            />
+
+        <Button
+            android:layout_width="@dimen/main_button_width"
+            android:layout_height="wrap_content"
+            android:text="@string/main_build_bigger"
+            style="@style/main_button_orange"
+            />
+
+        <Button
+            android:layout_width="@dimen/main_button_width"
+            android:layout_height="wrap_content"
+            android:text="@string/main_xyz_reader"
+            style="@style/main_button_orange"
+            />
+
+        <Button
+            android:layout_width="@dimen/main_button_width"
+            android:layout_height="wrap_content"
+            android:text="@string/main_capstone"
+            style="@style/main_button_red"
+            />
+
+    </LinearLayout>
+</ScrollView>
